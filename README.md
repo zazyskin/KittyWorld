@@ -1,2 +1,2 @@
 # Сайт KittyWorld
-# Связь Тык[Link text](https://t.me/KittyYauwWorld)
+# Связь [Тык](https://t.me/KittyYauwWorld)
