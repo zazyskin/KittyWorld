@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KittyWorld</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Скрипт для реального счёта игроков онлайн -->
+    <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <nav class="nav">
+                <a href="https://example.com/online-map" class="button">Карта</a>
+                <a href="index.html" class="button active">Главная</a>
+                <a href="wiki.html" class="button">Wiki</a>
+            </nav>
+        </header>
+
+        <div class="logo">
+            <img src="images/logo.png" alt="KittyWorld СЕЗОН 0">
+        </div>
+
+        <!-- Текст под лого -->
+        <div class="bottom-text">
+            Схуяли ты еще не играешь?
+        </div>
+
+        <!-- Кнопка "Присоединиться" -->
+        <a href="https://t.me/KittyYauwWorld_chat" class="join-button" target="_blank">
+            Присоединиться
+        </a>
+
+        <!-- Реальное количество котиков онлайн -->
+        <div class="online-players">
+            <span class="players-count" data-playercounter-ip="0.0.0.0:25565">0</span>
+            <span class="players-text"> котиков онлайн</span>
+        </div>
+
+        <!-- Заголовок полезных ссылок -->
+        <div class="useful-links-title">
+            Полезное:
+        </div>
+
+        <!-- Три кнопки горизонтально -->
+        <div class="links-buttons">
+
+            <!-- Новости -->
+            <a href="https://t.me/KittyYauwWorld" class="link-btn" target="_blank">
+                Новости
+            </a>
+
+            <!-- IP сервера -->
+            <div class="link-btn ip-btn">
+                <svg class="server-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 6h16v12H4V6zm16-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-8 12.5v-1h8v1h-8zm0-3v-1h8v1h-8zm0-3v-1h8v1h-8z" fill="currentColor"/>
+                </svg>
+                0.0.0.0:25565
+            </div>
+
+            <!-- Техподдержка -->
+            <a href="https://t.me/KittyYauwWorld" class="link-btn" target="_blank">
+                Техподдержка
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
